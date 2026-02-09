@@ -1,0 +1,9 @@
+const SubjectCreate = () => {
+    return (
+        <div>       
+            <h1>Create Subject</h1>
+        </div>
+    )
+}
+
+export default SubjectCreate;
