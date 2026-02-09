@@ -60,7 +60,7 @@ function App() {
                   <Outlet />
                 </Layout>
                 }> 
-                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/" element={<Dashboard />} />
                 <Route path = "/subjects" >
                   <Route index element={<SubjectLists />} />
                   <Route path="/subjects/create" element={<SubjectCreate />} />
